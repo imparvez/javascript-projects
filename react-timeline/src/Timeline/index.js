@@ -1,6 +1,7 @@
 import React from 'react'
+import './style.css'
 
-const TimelineItem = ({ data }) => {
+const Timeline = ({ data }) => {
     return (
         <div className="timeline-container">
             {
@@ -30,4 +31,4 @@ const TimelineItem = ({ data }) => {
     )
 }
 
-export default TimelineItem
+export default Timeline

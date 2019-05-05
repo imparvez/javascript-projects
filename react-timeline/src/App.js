@@ -1,12 +1,12 @@
 import React from 'react'
-import TimelineItem from './TimelineItem'
+import Timeline from './Timeline'
 import data from './timelineData'
 import './App.css';
 
 function App() {
     return (
         <div className="App">
-            <TimelineItem data={data} />
+            <Timeline data={data} />
         </div>
     )
 }
